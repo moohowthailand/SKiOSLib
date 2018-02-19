@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		32AF861F55D2175F84D180C1 /* Pods-SKiOSLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKiOSLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKiOSLib_Tests/Pods-SKiOSLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		48FBED94DC482C4DC45DE8F3 /* Pods_SKiOSLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKiOSLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DB5F80C13A90A156F901667 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4DB5F80C13A90A156F901667 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SKiOSLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKiOSLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* SKiOSLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKiOSLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		80A2B44844C9F4A80FD728F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		80A2B44844C9F4A80FD728F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D7CD39B3B26D1A47DBE2F0BB /* Pods-SKiOSLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKiOSLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKiOSLib_Example/Pods-SKiOSLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DB13675CBF1969AFBE07E018 /* Pods-SKiOSLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKiOSLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKiOSLib_Tests/Pods-SKiOSLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DEEDC2E62C79BCDA6D761355 /* SKiOSLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SKiOSLib.podspec; path = ../SKiOSLib.podspec; sourceTree = "<group>"; };
+		DEEDC2E62C79BCDA6D761355 /* SKiOSLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKiOSLib.podspec; path = ../SKiOSLib.podspec; sourceTree = "<group>"; };
 		E1831D0963914D35003F671E /* Pods-SKiOSLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKiOSLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKiOSLib_Example/Pods-SKiOSLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ED4D70F16BF5F8D531C16B39 /* Pods_SKiOSLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKiOSLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,6 +81,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				66583D66203AB7300033F288 /* Source */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SKiOSLib */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -146,6 +147,13 @@
 				4DB5F80C13A90A156F901667 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		66583D66203AB7300033F288 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		759B8693A1C63EF0E15AB8E8 /* Pods */ = {
@@ -215,6 +223,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K29ACE56SR;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -526,6 +535,7 @@
 			baseConfigurationReference = D7CD39B3B26D1A47DBE2F0BB /* Pods-SKiOSLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K29ACE56SR;
 				INFOPLIST_FILE = SKiOSLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -541,6 +551,7 @@
 			baseConfigurationReference = E1831D0963914D35003F671E /* Pods-SKiOSLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K29ACE56SR;
 				INFOPLIST_FILE = SKiOSLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
