@@ -1,0 +1,6 @@
+framework module Pods_SKiOSLib_Tests {
+  umbrella header "Pods-SKiOSLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

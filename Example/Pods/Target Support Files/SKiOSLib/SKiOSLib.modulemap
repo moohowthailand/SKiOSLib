@@ -1,0 +1,6 @@
+framework module SKiOSLib {
+  umbrella header "SKiOSLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
